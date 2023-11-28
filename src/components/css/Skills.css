@@ -1,0 +1,83 @@
+.skills {
+    background: url('/skillss.jpeg') no-repeat;
+    background-size: cover;
+    padding: 50px 80px;
+    position: relative;
+    background: linear-gradient(rgba(19, 19, 47, 0.9), rgba(7, 5, 34, 0.96)), url('/skillss.jpeg');
+    color: #fffdfd;
+}
+
+.skills__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills__detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills__title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.skills__subtitle {
+    font-size: 2rem;
+}
+
+.skills__details p {
+    font-size: 1.1rem;
+}
+
+.skills__details a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.skills__details a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+.skills__icons {
+    display: grid;
+    grid-template-columns: repeat(9, 4rem);
+    gap: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.skills__icon {
+    width: 4rem;
+    height: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.625rem;
+    background-color: rgb(54, 47, 83);
+}
+
+.skills__icon img {
+    width: 3rem;
+}
+
+.skills__icon span {
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .skills__detail {
+        flex-direction: column;
+    }
+
+    .skills__icons {
+        display: grid;
+        grid-template-columns: repeat(3, 4rem);
+        gap: 2rem;
+    }
+}

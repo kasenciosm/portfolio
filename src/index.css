@@ -1,0 +1,20 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}

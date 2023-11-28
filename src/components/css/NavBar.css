@@ -1,0 +1,127 @@
+.header {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* transition: .3s ease-in; */
+    overflow: hidden;
+    background-color: transparent;
+    animation: enhance-header linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 600px;
+}
+
+@keyframes enhance-header {
+    to {
+        background-color: #ffff;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    }
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+    padding: 0 5rem;
+}
+
+.header .nav-menu a {
+    color: #ffffff;
+    animation: list-color linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 600px;
+}
+
+@keyframes list-color {
+    to {
+        color: #000000;
+    }
+}
+
+.header .navbar img {
+    width: 50px;
+}
+
+.header .nav-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .nav-item {
+    padding: 1rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.header .nav-item a:hover,
+.header .nav-item a.active {
+    color: rgb(0, 98, 255);
+}
+
+.header .nav-item a:hover::after,
+.nav-item .active::after {
+    content: '';
+    width: 35px;
+    height: 3px;
+    border-radius: 2px;
+    background: rgb(0, 98, 255);
+    position: absolute;
+    left: 20px;
+    bottom: 2px;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+@media screen and (max-width:940px) {
+    .header {
+        max-width: 100%;
+        background-color: white;
+    }
+
+    .header .navbar {
+        max-width: 100%;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -150%;
+        top: 75px;
+        flex-direction: column;
+        background-color: rgba(132, 131, 131, 0.9);
+        width: 100%;
+        height: 45vh;
+        z-index: 999;
+        text-align: left;
+        transition: .5s;
+    }
+
+    .nav-menu a {
+        color: #000000;
+    }
+
+    .nav-menu.active {
+        left: -6%;
+    }
+
+    .nav-item {
+        margin: .5rem 0;
+    }
+
+    .header .navbar img {
+        width: 50px;
+    }
+}

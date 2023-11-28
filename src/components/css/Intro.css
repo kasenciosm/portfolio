@@ -1,0 +1,91 @@
+.intro {
+    background-image: url('/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    height: 86vh;
+
+    position: relative;
+    padding-bottom: 4rem;
+}
+
+@media (max-width: 480px) {
+    .intro {
+        height: 60vh;
+    }
+}
+
+.overlay_intro {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.intro__content {
+    text-align: center;
+    position: absolute;
+}
+
+.display-table {
+    display: table;
+}
+
+.intro__details-table {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro__container {
+    width: 70%;
+    padding-top: 5rem;
+    padding-right: 15px;
+    padding-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: left;
+    color: #ffffff;
+}
+
+.intro__title {
+    font-weight: 600;
+    font-size: 3rem;
+    width: 20rem;
+}
+
+.intro__subtitle {
+    font-size: 1.5rem;
+    font-size: 300;
+}
+
+.intro__cv {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.intro__cv a {
+    text-decoration: none;
+}
+
+.cv {
+    background-color: rgb(186, 219, 219);
+    padding: .5rem;
+    border-radius: 10px;
+
+    font-weight: 600;
+    color: rgb(7, 7, 46);
+
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+}

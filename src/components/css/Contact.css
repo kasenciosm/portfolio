@@ -1,0 +1,90 @@
+.contact {
+    background-size: cover;
+    position: relative;
+    background: linear-gradient(rgba(19, 19, 47, 0.9), rgba(7, 5, 34, 0.96)), url('/skillss.jpeg');
+    color: #fffdfd;
+}
+
+.contact__box {
+    opacity: 85%;
+    border-radius: .625rem;
+    padding: 60px 80px;
+}
+
+.contact__details {
+    background-color: #140e32;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.contact__title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.contact__text {
+    font-size: 1rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+
+.contact__personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.personal {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .personal {
+        flex-direction: column;
+    }
+}
+
+.contact__phone {
+    text-align: center;
+    padding: .1rem;
+}
+
+.contact__mail {
+    text-align: center;
+    padding: .1rem;
+}
+
+.social {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.contact__social {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.contact__social a {
+    color: #ffff;
+    padding: .5rem;
+    border-radius: 100%;
+}
+
+.contact__social a:hover {
+    background-color: rgb(74, 74, 74);
+    color: rgb(3, 3, 46);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: rgb(74, 71, 71);
+}
