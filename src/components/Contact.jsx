@@ -2,6 +2,7 @@ import { BsTelephone } from "react-icons/bs";
 import { GoMail } from "react-icons/go";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import Logo from "./Logo";
 
 function Contact() {
     return (
@@ -42,6 +43,7 @@ function Contact() {
                 </div>
                 <footer>
                     <span className="footer">
+                        <Logo text='{ ka }' />
                         Kenyi Asencios - 2023
                     </span>
                 </footer>

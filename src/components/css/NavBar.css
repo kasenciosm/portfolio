@@ -11,7 +11,23 @@
     animation: enhance-header linear both;
     animation-timeline: scroll(root);
     animation-range: 0 600px;
+    color: #fff;
 }
+
+.header .logo {
+    font-size: 2rem;
+    font-weight: 600;
+    animation: logo-header linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 600px;
+}
+
+@keyframes logo-header {
+    to {
+        color: #000000;
+    }
+}
+
 
 @keyframes enhance-header {
     to {
@@ -27,7 +43,8 @@
     max-width: 1440px;
     margin: auto;
     height: 100%;
-    padding: 0 5rem;
+    padding: 0 6rem;
+
 }
 
 .header .nav-menu a {
@@ -35,6 +52,9 @@
     animation: list-color linear both;
     animation-timeline: scroll(root);
     animation-range: 0 600px;
+    font-size: 1.1rem;
+
+    margin-bottom: 2rem;
 }
 
 @keyframes list-color {
@@ -121,7 +141,11 @@
         margin: .5rem 0;
     }
 
-    .header .navbar img {
-        width: 50px;
+    .header .navbar .logo {
+        width: 80px;
+        color: #000000;
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: .5rem;
     }
 }
