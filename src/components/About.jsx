@@ -15,7 +15,7 @@ function About() {
                         </p>
                     </div>
                     <div className='photo'>
-                        <img src={kenyi} width={180} />
+                        <img src={kenyi} width={200} />
                     </div>
                 </div>
                 <div>

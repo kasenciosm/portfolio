@@ -5,10 +5,7 @@
 
 
 .photo {
-    margin-top: 1rem;
-    width: 40%;
-    display: flex;
-    justify-content: center;
+    width: 50%;
 }
 
 .about__details {
