@@ -11,7 +11,7 @@ function Skills() {
                             <h3 className='skills__subtitle'>Mis habilidades de programador incluyen</h3>
                             <p> Desarrollo de interfaces de usuario simples, intuitivas y responsive que ayudan a los
                                 usuarios a hacer sus tareas con menos esfuerzo y tiempo con esas tecnologías.</p>
-                            <p>Para más información, visita mi <a href='#'>Github</a> o <a href='#'>LinkedIn</a>.</p>
+                            <p>Para más información, visita mi <a href='https://github.com/kasenciosm'>Github</a> o <a href='https://www.linkedin.com/in/kenyi-asencios/'>LinkedIn</a>.</p>
                         </div>
                         <div className='skills__icons'>
                             < div className='skills__icon'>

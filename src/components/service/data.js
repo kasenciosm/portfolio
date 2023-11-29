@@ -5,7 +5,8 @@ const Data = [
         description: "Consumo de API de banderas, proyecto desarrollado usando Vanilla Javascript. Uso del metodo Fetch para acceder a los datos de esta API.",
         category: "Javascript",
         image: "https://i.postimg.cc/15t1WsCy/fetch-countries.png",
-        github: "https://github.com/kasenciosm/fetch-countries"
+        github: "https://github.com/kasenciosm/fetch-countries",
+        url: "https://fetch-countries-js.netlify.app/"
     },
     {
         id: "2",
@@ -13,7 +14,8 @@ const Data = [
         description: "Aplicacion web para registrar tareas, la aplicación esta conectada una base de datos. Desarrollado con React, Node y PostgreSQL",
         category: "React",
         image: "https://i.postimg.cc/fRPNrsJF/tasks.jpg",
-        github: "https://github.com/kasenciosm/tasks_react"
+        github: "https://github.com/kasenciosm/tasks_react",
+        url: "https://tasks-app-ka.netlify.app/"
     },
     {
         id: "3",
@@ -21,7 +23,8 @@ const Data = [
         description: "Tienda Virtual de medias con variados diseños. Web desarrollada con React. ",
         category: "React",
         image: "https://i.postimg.cc/s2qyLr0x/sockete.jpg",
-        github: "https://github.com/kasenciosm/sockete_front"
+        github: "https://github.com/kasenciosm/shopping-cart",
+        url: "https://shopping-cart-react-ka.netlify.app/"
     },
     {
         id: "5",
@@ -29,7 +32,8 @@ const Data = [
         description: "Base de datos de la aplicación web TASKS. Para este proyecto usé Node y PostgreSQL.",
         category: "Node",
         image: "https://i.postimg.cc/HWBY82Rs/db.jpg",
-        github: "https://github.com/kasenciosm/tasks_node_postgres"
+        github: "https://github.com/kasenciosm/tasks_node_postgres",
+        url: "https://github.com/kasenciosm/tasks_node_postgres"
     },
     {
         id: "4",
@@ -37,7 +41,7 @@ const Data = [
         description: "Aplicación web de citas medicas para mascotas.Usé React para este proyecto.",
         category: "React",
         image: "https://i.postimg.cc/PfY66X1C/vett.jpg",
-        github: "https://github.com/kasenciosm/vet_appointments"
+        github: "https://vet-appointments-react.netlify.app/"
     },
 
 ]

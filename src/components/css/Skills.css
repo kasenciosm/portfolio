@@ -34,6 +34,8 @@
 .skills__details a {
     text-decoration: none;
     color: #ffff;
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 .skills__details a:hover {

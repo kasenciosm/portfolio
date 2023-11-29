@@ -15,7 +15,7 @@ function Card({ item }) {
                                 <p>{val.description}</p>
                             </div>
                             <div className="links">
-                                <a href='#'>
+                                <a href={val.url}>
                                     <GoLink size={50} color="white" />
                                 </a>
                                 <a href={val.github}>
