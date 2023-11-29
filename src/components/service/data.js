@@ -20,7 +20,7 @@ const Data = [
     {
         id: "3",
         name: "SOCKETE",
-        description: "Tienda Virtual de medias con variados diseños. Web desarrollada con React. ",
+        description: "Carrito de compras, usando estados y contextos en React.",
         category: "React",
         image: "https://i.postimg.cc/s2qyLr0x/sockete.jpg",
         github: "https://github.com/kasenciosm/shopping-cart",
