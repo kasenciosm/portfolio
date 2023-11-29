@@ -15,10 +15,10 @@ function Card({ item }) {
                                 <p>{val.description}</p>
                             </div>
                             <div className="links">
-                                <a href={val.url}>
+                                <a href={val.url} target="_blank" rel="noopener noreferrer">
                                     <GoLink size={50} color="white" />
                                 </a>
-                                <a href={val.github}>
+                                <a href={val.github} target="_blank" rel="noopener noreferrer">
                                     <FaGithub size={50} color="white" />
                                 </a>
                             </div>
