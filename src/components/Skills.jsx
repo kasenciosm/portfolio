@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Skills() {
     return (
         <>
@@ -23,6 +21,10 @@ function Skills() {
                             </div>
                             <div className='skills__icon'>
                                 <img src="./js.svg" alt="javascript" />
+
+                            </div>
+                            <div className='skills__icon'>
+                                <img src="./ts.svg" alt="typescript" />
 
                             </div>
                             <div className='skills__icon'>
