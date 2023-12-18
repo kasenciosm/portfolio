@@ -6,6 +6,7 @@
 
 .photo {
     width: 50%;
+    filter: drop-shadow(4px 8px 10px rgba(0, 0, 0, 0.8))
 }
 
 .about__details {

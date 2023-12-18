@@ -9,8 +9,8 @@ function About() {
                         <h2 className='about__title'>Acerca de mí...</h2>
                         <h3 className='about__subtitle'>Desarrollador Frontend</h3>
                         <p>Desarrollador Web con sólidos conocimientos en HTML5, CSS3 y JavaScript y en
-                            manejos de tecnologías como React y Node.js, control de versiones con Git. Cuento con conocimientos básicos
-                            en TypeScript y PostgreSQL.
+                            manejos de tecnologías como React y Angular, control de versiones con Git. Cuento con conocimientos básicos
+                            en Figma, Node Js y PostgreSQL.
                         </p>
                     </div>
                     <div className='photo'>

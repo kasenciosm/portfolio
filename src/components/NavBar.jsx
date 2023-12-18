@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-scroll'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import Logo from './Logo'
@@ -13,7 +13,9 @@ function NavBar() {
     return (
         <div className='header'>
             <nav className='navbar'>
+                <Link to='home'>
                 <Logo className='logo' text='{ ka }' />
+                </Link>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#000000' }} />)
                         : (<FaBars size={30} style={{ color: '#000000' }} />)}

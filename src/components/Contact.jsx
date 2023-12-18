@@ -19,7 +19,7 @@ function Contact() {
                                 <div className="contact__phone">
                                     <BsTelephone size={40} />
                                     <p>Celular</p>
-                                    <p>+ 051 1 924533623</p>
+                                    <p>51 924533623</p>
                                 </div>
                                 <div className="contact__mail">
                                     <GoMail size={40} />

@@ -29,7 +29,12 @@ function Skills() {
                             </div>
                             <div className='skills__icon'>
                                 <img src="./reactjs.svg" alt="react" />
-
+                            </div>
+                            <div className='skills__icon'>
+                                <img src="./angular.svg" alt="angular" />
+                            </div>
+                            <div className='skills__icon'>
+                                <img src="./figma.svg" alt="figma" />
                             </div>
                             <div className='skills__icon'>
                                 <img src="./tailwind.svg" alt="tailwind" />

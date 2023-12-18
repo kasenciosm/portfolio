@@ -4,11 +4,11 @@ const Data = [
     {
         id: "2",
         name: "TASKS",
-        description: "Aplicacion web para registrar tareas, esta aplicación la hice con React y TypeScript.",
-        category: "Typescript",
-        image: "https://i.postimg.cc/DzWxx862/ts.jpg",
-        github: "https://github.com/kasenciosm/todo-ts-react",
-        url: ""
+        description: "Aplicacion web para registrar tareas, esta aplicación la hice con Angular.",
+        category: "Angular",
+        image: "https://i.postimg.cc/cHX5fbY7/todo-Angular.jpg",
+        github: "https://github.com/kasenciosm/todo-angular",
+        url: "https://todo-angular-ka.netlify.app/todo"
     },
     {
         id: "1",
@@ -16,7 +16,8 @@ const Data = [
         description: "Aplicación web de citas medicas para mascotas.Usé React para este proyecto.",
         category: "React",
         image: "https://i.postimg.cc/N0WpSBCR/appms.jpg",
-        github: "https://vet-appointments-react.netlify.app/"
+        github: "https://github.com/kasenciosm/vet_appointments",
+        url: "https://vet-appointments-react.netlify.app/"
     },
     {
         id: "3",
@@ -28,7 +29,7 @@ const Data = [
         url: "https://shopping-cart-react-ka.netlify.app/"
     },
     {
-        id: "3",
+        id: "4",
         name: "FETCH COUNTRIES",
         description: "Consumo de API de banderas, proyecto desarrollado usando Vanilla Javascript. Uso del metodo Fetch para acceder a los datos de esta API.",
         category: "Javascript",

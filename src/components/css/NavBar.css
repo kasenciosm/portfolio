@@ -20,6 +20,7 @@
     animation: logo-header linear both;
     animation-timeline: scroll(root);
     animation-range: 0 600px;
+    cursor: pointer;
 }
 
 @keyframes logo-header {
